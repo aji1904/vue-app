@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard - Mazer Admin Dashboard</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-
-    <link rel="stylesheet" href="assets/vendors/iconly/bold.css">
-
-    <link rel="stylesheet" href="assets/vendors/perfect-scrollbar/perfect-scrollbar.css">
-    <link rel="stylesheet" href="assets/vendors/bootstrap-icons/bootstrap-icons.css">
-    <link rel="stylesheet" href="assets/css/app.css">
-    <link rel="shortcut icon" href="assets/images/favicon.svg" type="image/x-icon">
-    
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script> 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script> production -->
-</head>
-
-<body>
+<template lang="id">
     <div id="app">
         <div id="sidebar" class="active">
             <div class="sidebar-wrapper active">
@@ -669,13 +646,14 @@
             </footer>
         </div>
     </div>
-    <script src="assets/vendors/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</template>
+<script>
+export default {
+    name: 'home'
+}
+</script>
 
-    <script src="assets/vendors/apexcharts/apexcharts.js"></script>
-    <script src="assets/js/pages/dashboard.js"></script>
-
-    <script src="assets/js/main.js"></script>
-</body>
-
-</html>
+<style>
+    
+</style>
+    

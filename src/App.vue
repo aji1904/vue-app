@@ -1,14 +1,15 @@
 <template>
-  <Test />
+  <homeVue />
 </template>
 
 <script>
-import App from './pages/Test.vue'
+import homeVue from './pages/home.vue'
+// import authLoginVue from './pages/auth-login.vue';
 
 export default {
   name: 'App',
   components: {
-    App
+    homeVue
   }
 }
 </script>
